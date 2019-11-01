@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ <html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vantage eSports</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <style>
+	       /* html{
+	        	box-sizing: border-box;
+	        }
+			html, body {
+				height:100%;
+				margin:0;
+			}
+			body {
+				background: rgb(255,255,255);
+				background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(152,153,153,1) 100%);
+			}
+			*, *:before, *:after {
+			  box-sizing: inherit;
+			}*/
+
+			* {
+			  padding: 0;
+			  margin: 0;
+			  box-sizing: border-box;
+			}
+
+			#container {
+				display:flex;
+				flex-direction:column;
+				flex-wrap:nowrap;
+				justify-content:center;
+				align-items:center;
+				padding:5%;
+				min-height: 100vh;
+
+				background: rgb(255,255,255);
+				background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(152,153,153,1) 100%);
+			}
+			#logo {
+				width:100%;
+				max-width:1000px;
+				height:200px;
+				margin:auto 0 2rem 0;
+				display:block;
+				background: url("img/Vantage_web_logo.svg")center center no-repeat;
+				background-size: contain;
+				text-indent: 100%;
+				white-space: nowrap;
+				overflow: hidden;
+			}
+			#copy {
+				width:100%;
+				max-width:1000px;
+				margin:0;
+			}
+
+			#copy p {
+				font-family: 'Roboto', sans-serif;
+				font-size:20px;
+				line-height: 24px;
+				color:#4d4d4d;
+				text-align: center;
+				margin: 0;
+			}
+
+			#copy p + p {
+				margin-top:2rem;
+			}
+			#copy p a {
+				font-family: 'Roboto', sans-serif;
+				font-size:20px;
+				line-height: 24px;
+				color:#357fbc;
+				text-decoration: none;
+			}
+			#footer{
+				width:100%;
+				min-width:200px;
+				max-width:1000px;
+				margin:auto 0 0 0;
+				padding-top:2rem;
+			}
+			#footer p {
+				font-family: 'Roboto', sans-serif;
+				font-size:16px;
+				line-height: 16px;
+				color:#4d4d4d;
+				text-align: center;
+				margin: 0;
+			}
+			#footer p + p {
+				margin-top:1rem;
+			}
+        </style>
+    </head>
+    <body>
+		<div id="container">
+			<div id="logo">Vantage eSports</div>
+			<div id="copy">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, magnam, non. Error iste, cumque quaerat corporis laboriosam, doloribus aut sequi, necessitatibus praesentium rem fugiat vel porro nesciunt, aliquid accusamus reprehenderit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, magnam, non. Error iste, cumque quaerat corporis laboriosam, <a href="">doloribus aut sequi</a>.</p>
+			</div>
+			<div id="footer">
+				<p>Sponsored by</p>
+				<p>
+					<a href="https://ninjatrader.com" target="_blank"><img src="img/NT7_RGB_Logo.png" alt="NinjaTrader"></a>
+				</p>
+			</div>
+		</div>
+    </body>
+</html>
